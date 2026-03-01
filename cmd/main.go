@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	c, err := config.NewConfigFromFile("config.json")
+	c, err := config.NewConfigFromFile("/config/config.json")
 	if err != nil {
 		log.Fatalln(err)
 	}
